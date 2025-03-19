@@ -2500,6 +2500,7 @@ MonoBehaviour:
   _handJointId: 8
   _localPositionOffset: {x: 0.017, y: 0, z: 0}
   _rotationOffset: {x: 0, y: 0, z: 0, w: 1}
+  _mirrorOffsetsForLeftHand: 1
 --- !u!1 &351397553
 GameObject:
   m_ObjectHideFlags: 0
@@ -3075,9 +3076,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hand: {fileID: 1579406301}
-  _skinnedMeshRenderer: {fileID: 399603214}
   _updateRootPose: 1
   _updateRootScale: 1
+  _updateVisibility: 1
+  _skinnedMeshRenderer: {fileID: 399603214}
   _root: {fileID: 0}
   _handMaterialPropertyBlockEditor: {fileID: 399603213}
   _jointTransforms:
@@ -5959,9 +5961,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hand: {fileID: 155126198}
-  _skinnedMeshRenderer: {fileID: 404309783}
   _updateRootPose: 1
   _updateRootScale: 1
+  _updateVisibility: 1
+  _skinnedMeshRenderer: {fileID: 404309783}
   _root: {fileID: 0}
   _handMaterialPropertyBlockEditor: {fileID: 404309782}
   _jointTransforms:
@@ -6783,6 +6786,7 @@ MonoBehaviour:
   _handJointId: 8
   _localPositionOffset: {x: 0.017, y: 0, z: 0}
   _rotationOffset: {x: 0, y: 0, z: 0, w: 1}
+  _mirrorOffsetsForLeftHand: 1
 --- !u!1 &758506392
 GameObject:
   m_ObjectHideFlags: 0
@@ -17482,6 +17486,9 @@ MonoBehaviour:
   overridePerLayerColorScaleAndOffset: 0
   colorScale: {x: 1, y: 1, z: 1, w: 1}
   colorOffset: {x: 0, y: 0, z: 0, w: 0}
+  passthroughLayerResumed:
+    m_PersistentCalls:
+      m_Calls: []
   colorMapEditorType_: 0
   colorMapEditorGradient:
     serializedVersion: 2
