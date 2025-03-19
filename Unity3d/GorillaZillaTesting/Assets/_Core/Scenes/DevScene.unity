@@ -8407,7 +8407,7 @@ MonoBehaviour:
   requestBodyTrackingPermissionOnStartup: 0
   requestFaceTrackingPermissionOnStartup: 0
   requestEyeTrackingPermissionOnStartup: 0
-  requestScenePermissionOnStartup: 0
+  requestScenePermissionOnStartup: 1
   requestRecordAudioPermissionOnStartup: 0
   _localDimming: 1
   _trackingOriginType: 1
@@ -19814,12 +19814,12 @@ SceneRoots:
   m_Roots:
   - {fileID: 1935634483}
   - {fileID: 1003503300}
+  - {fileID: 909000440}
+  - {fileID: 1984871332}
+  - {fileID: 2009796492}
+  - {fileID: 770448729}
   - {fileID: 2049920951}
   - {fileID: 1782570607}
   - {fileID: 148555513}
   - {fileID: 1508481367}
   - {fileID: 408396042}
-  - {fileID: 909000440}
-  - {fileID: 1984871332}
-  - {fileID: 2009796492}
-  - {fileID: 770448729}
